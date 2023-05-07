@@ -1,3 +1,6 @@
-export default function Home() {
-  return <div className="text-red-500">Hello</div>
+import { db } from '@/lib/db'
+import Button from '@/components/ui/Button'
+
+export default async function Home() {
+  return <Button variant="ghost">Hello</Button>
 }
